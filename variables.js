@@ -22,8 +22,8 @@ console.log(user_name4);
 username$5 = "camelCasingRules"
 console.log(username$5);  
 
-let radius = 5;
-const pi = 3.14;
+let radius = 5;        
+const pi = 3.14;    //now the pi value will be constant
  radius = 10;
  
 area = pi * radius * radius;
