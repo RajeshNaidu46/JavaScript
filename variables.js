@@ -3,13 +3,30 @@ console.log(num);
 console.log(num+10); 
 
 
-let num = 8
+ num = 8
 console.log(num);
 
 
-let username = "Rajesh";               // string variable
+ username = "Rajesh";               // string variable
 console.log(username); 
 
-let username2 = "Rajesh's account"
+ username2 = "Rajesh's account"
 console.log(username2);
+
+ username3 = "rajesh's account is blocked"
+console.log(username3);
+
+user_name4 = "snake_casing_rules"
+console.log(user_name4);
+
+username$5 = "camelCasingRules"
+console.log(username$5);  
+
+let radius = 5;
+const pi = 3.14;
+ radius = 10;
+ 
+area = pi * radius * radius;
+console.log("Area of circle is " + area);
+
 
