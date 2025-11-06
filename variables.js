@@ -30,3 +30,40 @@ area = pi * radius * radius;
 console.log("Area of circle is " + area);
 
 
+let city = "Bangalore";
+const country = "India";     // we cannot change the value of constant variable
+console.log("City name is " + city);
+city = "Mumbai";
+console.log("Updated city name is " + city);  
+
+let age = 25;
+console.log("Age is " + age);
+age = 26;
+console.log("Updated age is " + age);
+
+let first_name = "Ramesh";
+let last_name = "Kumar";
+console.log("full name is " + first_name + " " + last_name);
+
+let my_name = "Suresh";
+console.log("My name is " + my_name);
+let myFavcolor = "Blue";
+console.log("My favorite color is " + myFavcolor);
+let myFavFood = "Pizza";
+console.log("My favorite food is " + myFavFood);
+
+let perItemPrice = 50;
+let quantity = 5;
+let totalPrice = perItemPrice * quantity;
+console.log("Total price is " + totalPrice);
+
+let burgerPrice = 80;
+let friesPrice = 40;
+let totalMealPrice = burgerPrice + friesPrice;
+console.log("Total meal price is " + totalMealPrice);
+
+let totalbill = 1000;
+const discount = 0.1; // 10% discount
+let totalcost = totalbill - (totalbill * discount);
+console.log("Total cost after discount is " + totalcost);
+
