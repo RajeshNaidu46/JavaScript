@@ -67,3 +67,5 @@ const discount = 0.1; // 10% discount
 let totalcost = totalbill - (totalbill * discount);
 console.log("Total cost after discount is " + totalcost);
 
+
+
